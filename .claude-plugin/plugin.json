@@ -1,0 +1,6 @@
+{
+  "name": "claude-kit",
+  "description": "Skills, agents and commands for Claude Code: SEO/GEO suite, engineering and marketing agents, plus custom workflow skills",
+  "version": "0.1.0",
+  "author": { "name": "Dmytro Antonyuk", "url": "https://github.com/borntojesus" }
+}
