@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/collector-output.schema.json",
+  "title": "Hermes receipt collector pre-run output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["wakeAgent"],
+  "properties": {
+    "wakeAgent": {
+      "type": "boolean"
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "run_id",
+        "status",
+        "saved",
+        "duplicates",
+        "candidates",
+        "rejected",
+        "errors",
+        "manifest"
+      ],
+      "properties": {
+        "run_id": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-W[0-9]{2}$"
+        },
+        "status": {
+          "enum": ["success", "partial", "failed"]
+        },
+        "saved": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "duplicates": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "candidates": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "rejected": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "errors": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "manifest": {
+          "type": "string",
+          "pattern": "^/srv/hermes-receipts/manifests/[0-9]{4}-W[0-9]{2}\\.json$"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "wakeAgent": {
+            "const": true
+          }
+        }
+      },
+      "then": {
+        "required": ["context"]
+      }
+    }
+  ]
+}

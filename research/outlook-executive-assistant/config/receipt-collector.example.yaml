@@ -1,0 +1,119 @@
+timezone: "Europe/Kyiv"
+mailbox: "MAILBOX_ADDRESS@example.com"
+
+entra:
+  tenant_id: "ENTRA_TENANT_ID"
+  client_id: "ENTRA_APPLICATION_CLIENT_ID"
+  delegated_scopes:
+    - "Mail.Read"
+  expected_username: "MAILBOX_ADDRESS@example.com"
+  token_cache_command: "/usr/local/bin/ms365-auth-cache-store"
+
+schedule:
+  mode: "previous_calendar_week"
+  week_starts_on: "monday"
+  grace_period_minutes: 15
+
+search:
+  folders:
+    - "Inbox"
+    - "Archive"
+  sender_allowlist:
+    - "receipts@example-vendor.com"
+  sender_domain_allowlist:
+    - "example-vendor.com"
+  subject_keywords:
+    - "receipt"
+    - "invoice"
+    - "payment"
+    - "paid"
+    - "bill"
+    - "чек"
+    - "квитанція"
+    - "оплата"
+  body_keywords:
+    - "payment successful"
+    - "transaction completed"
+    - "оплачено"
+  unknown_senders: "candidate_only"
+  max_messages_per_run: 500
+
+attachments:
+  accepted_mime_types:
+    - "application/pdf"
+    - "image/jpeg"
+    - "image/png"
+  accepted_extensions:
+    - ".pdf"
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+  max_bytes: 10485760
+  skip_inline: true
+  reject_reference_attachments: true
+  antivirus_command: "/usr/bin/clamdscan --fdpass"
+  quarantine_on_failure: true
+
+html_receipts:
+  enabled: true
+  save_original_eml: true
+  render_pdf: true
+  block_network: true
+  remove_scripts: true
+  remove_forms: true
+  remove_iframes: true
+
+classification:
+  require_paid_evidence: true
+  paid_markers:
+    - "receipt"
+    - "paid"
+    - "payment successful"
+    - "transaction completed"
+    - "оплачено"
+  unpaid_markers:
+    - "amount due"
+    - "payment required"
+    - "due date"
+    - "до сплати"
+  refund_markers:
+    - "refund"
+    - "refunded"
+    - "повернення"
+
+card_aliases:
+  - alias: "WORK_CARD_NAME"
+    last4: "1234"
+
+storage:
+  root: "/srv/hermes-receipts"
+  originals: "/srv/hermes-receipts/originals"
+  rendered: "/srv/hermes-receipts/rendered"
+  quarantine: "/srv/hermes-receipts/quarantine"
+  manifests: "/srv/hermes-receipts/manifests"
+  database: "/srv/hermes-receipts/state/receipts.sqlite3"
+  logs: "/srv/hermes-receipts/logs"
+  file_mode: "0600"
+  directory_mode: "0700"
+  retention_days: 2555
+
+obsidian:
+  vault_root: "/srv/hermes-memory"
+  weekly_notes: "/srv/hermes-memory/receipts"
+  store_raw_receipts_in_vault: false
+  store_full_email_body_in_vault: false
+
+privacy:
+  store_full_card_number: false
+  store_email_body: false
+  redact_patterns:
+    - "card_number"
+    - "cvv"
+    - "mfa_code"
+    - "oauth_token"
+
+runtime:
+  dry_run: true
+  lock_file: "/srv/hermes-receipts/state/collector.lock"
+  retry_count: 1
+  retry_backoff_seconds: 30

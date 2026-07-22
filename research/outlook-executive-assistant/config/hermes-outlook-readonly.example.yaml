@@ -1,0 +1,53 @@
+# Merge this block into ~/.hermes/config.yaml.
+# Replace placeholders before use.
+# Verified against @softeria/ms-365-mcp-server 0.132.0.
+
+timezone: "Europe/Kyiv"
+
+mcp_servers:
+  microsoft365_mail_read:
+    command: "/opt/hermes-outlook-mcp/node_modules/.bin/ms-365-mcp-server"
+    args:
+      - "--read-only"
+      - "--allowed-scopes"
+      - "Mail.Read"
+      - "--expected-username"
+      - "MAILBOX_ADDRESS@example.com"
+    env:
+      MS365_MCP_CLIENT_ID: "ENTRA_APPLICATION_CLIENT_ID"
+      MS365_MCP_TENANT_ID: "ENTRA_TENANT_ID"
+      MS365_MCP_AUTH_CACHE_COMMAND: "/usr/local/bin/ms365-auth-cache-store"
+      MS365_MCP_AUTH_CACHE_COMMAND_TIMEOUT_MS: "10000"
+      MS365_MCP_LOG_DIR: "/home/HERMES_USER/.local/state/ms365-mcp-read/logs"
+      MS365_MCP_AUDIT_LOG: "true"
+      MS365_MCP_MAX_TOP: "30"
+      MS365_MCP_MAX_PAGES: "2"
+      MS365_MCP_MAX_ITEMS: "60"
+      MS365_MCP_ALLOW_PAGINATION: "false"
+      LOG_LEVEL: "info"
+
+      # Do not use a mail preset here. Keep the exact MCP-side allowlist.
+      ENABLED_TOOLS: "^(list-mail-messages|list-mail-folders|list-mail-folder-messages|get-mail-message)$"
+
+    tools:
+      include:
+        - list-mail-messages
+        - list-mail-folders
+        - list-mail-folder-messages
+        - get-mail-message
+      resources: false
+      prompts: false
+    supports_parallel_tool_calls: false
+    timeout: 60
+    connect_timeout: 30
+    idle_timeout_seconds: 900
+    max_lifetime_seconds: 86400
+
+cron:
+  wrap_response: false
+  script_timeout_seconds: 900
+
+approvals:
+  mode: manual
+  cron_mode: deny
+  mcp_reload_confirm: true

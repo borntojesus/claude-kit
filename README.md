@@ -57,10 +57,15 @@ Perplexity).
 
 ## Дослідження
 
-Окремі архітектурні дослідження зберігаються в `research/`. Перший пакет:
+Окремі архітектурні дослідження зберігаються в `research/`.
+
 [Negotiation Intelligence for Claude Code](research/negotiation-intelligence/README.md),
 система підготовки до переговорів і управлінських презентацій через аналіз
 аудиторії, роботу з даними, доказові візуалізації та red-team перевірку.
+
+[Outlook Executive Assistant for Hermes](research/outlook-executive-assistant/README.md),
+read-only поштовий бриф, щотижневий збір чеків робочих карток через
+детермінований collector, Telegram cron і операційна пам'ять в Obsidian.
 
 ## Що сюди свідомо не увійшло
 
