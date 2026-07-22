@@ -1,0 +1,2 @@
+evidence_id,claim_id,source,location,observed_at,confidence,notes
+E-001,C-001,source-name,exact-location,2026-08-01,medium,Replace this example

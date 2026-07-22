@@ -1,7 +1,7 @@
 # claude-kit
 
 Набір скілів, агентів і команд для [Claude Code](https://claude.com/claude-code).
-Це те, чим я користуюсь щодня. Тут 64 скіли, 103 агенти та 1 команда.
+Це те, чим я користуюсь щодня. Тут 65 скілів, 103 агенти та 1 команда.
 
 ## Установка
 
@@ -43,7 +43,8 @@ Perplexity).
 **Робочі процеси.** `karpathy-method` (спец-перший підхід до роботи з кодом),
 `inbox-process` (розбір інбоксу second-brain сховища), `obsidian`, `cowork`
 (генерує промпт для браузерного агента), `logo-finder`, `site-screenshot`,
-`humanizer` (прибирає ознаки AI-письма), `maya-design` (UX-аудит).
+`humanizer` (прибирає ознаки AI-письма), `maya-design` (UX-аудит),
+`presentation-preparation` (бокове меню, живий дек і доказова кухня слайдів).
 
 ### Агенти (103)
 
@@ -66,6 +67,10 @@ Perplexity).
 [Outlook Executive Assistant for Hermes](research/outlook-executive-assistant/README.md),
 read-only поштовий бриф, щотижневий збір чеків робочих карток через
 детермінований collector, Telegram cron і операційна пам'ять в Obsidian.
+
+[Presentation Preparation Workspace](research/presentation-preparation-workspace/README.md),
+файлова система підготовки презентацій із боковим меню, живим deck viewer,
+дослідженням під кожним слайдом і безпечним public cut.
 
 ## Що сюди свідомо не увійшло
 

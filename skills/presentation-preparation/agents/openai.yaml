@@ -1,0 +1,4 @@
+interface:
+  display_name: "Presentation Preparation"
+  short_description: "Build a research-backed presentation workspace"
+  default_prompt: "Use $presentation-preparation to create a presentation workspace with a sidebar, live deck, and evidence under each slide."
