@@ -1,0 +1,11 @@
+# /etc/systemd/system/assistant-brief.timer
+# Час у таймзоні сервера, тому системна зона має бути виставлена правильно.
+[Unit]
+Description=Запуск ранкового брифа у робочі дні
+
+[Timer]
+OnCalendar=Mon-Fri 07:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

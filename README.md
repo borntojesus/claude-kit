@@ -29,7 +29,7 @@ cd claude-kit
 
 ## Що всередині
 
-### Скіли (64)
+### Скіли (65)
 
 **SEO та GEO (~45).** Повний цикл: аудит сайту, технічне SEO, дослідження
 ключових слів, аналіз SERP, схема-розмітка, локальне SEO, беклінки, контент.
@@ -72,6 +72,11 @@ read-only поштовий бриф, щотижневий збір чеків р
 файлова система підготовки презентацій із боковим меню, живим deck viewer,
 дослідженням під кожним слайдом і безпечним public cut.
 
+[Outlook Slot Assistant](research/outlook-slot-assistant/README.md), підбір слотів
+для зустрічей із коректними таймзонами через Microsoft Graph, ранковий бриф із
+підсвічуванням важливого за відправником і темою, плюс плановий шар керівника на
+місяць, шість місяців і два роки.
+
 ## Що сюди свідомо не увійшло
 
 **Скіли, вбудовані в Claude Code** (`docx`, `pdf`, `pptx`, `xlsx`,
@@ -93,8 +98,9 @@ read-only поштовий бриф, щотижневий збір чеків р
 Повний перелік джерел: [NOTICE.md](NOTICE.md).
 
 Моя частина (`karpathy-method`, `cowork`, `icon-library`, `sidebar-nav-shell`,
-`claude-context-picker`, `logo-finder`, `inbox-process`, `maya-design`,
-агенти й команди) поширюється під [MIT](LICENSE).
+`claude-context-picker`, `logo-finder`, `inbox-process`, `maya-design`, `obsidian`,
+`presentation-preparation`, вміст `research/`, агенти й команди) поширюється під
+[MIT](LICENSE).
 
 Якщо ви автор чогось із цього набору і хочете інших умов, напишіть в issues,
 приберу або поправлю атрибуцію.

@@ -1,0 +1,27 @@
+# /etc/systemd/system/assistant.service
+# Бот на long polling: вихідні зʼєднання, жодного відкритого порту.
+[Unit]
+Description=Outlook slot assistant (Telegram bot)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=assistant
+Group=assistant
+WorkingDirectory=/opt/assistant
+EnvironmentFile=/opt/assistant/.env
+ExecStart=/opt/assistant/venv/bin/python -m assistant bot
+Restart=always
+RestartSec=10
+# посилення
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/assistant/state
+CapabilityBoundingSet=
+MemoryMax=512M
+
+[Install]
+WantedBy=multi-user.target

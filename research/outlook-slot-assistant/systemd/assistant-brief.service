@@ -1,0 +1,16 @@
+# /etc/systemd/system/assistant-brief.service
+[Unit]
+Description=Ранковий бриф пошти
+
+[Service]
+Type=oneshot
+User=assistant
+Group=assistant
+WorkingDirectory=/opt/assistant
+EnvironmentFile=/opt/assistant/.env
+ExecStart=/opt/assistant/venv/bin/python -m assistant brief
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/assistant/state

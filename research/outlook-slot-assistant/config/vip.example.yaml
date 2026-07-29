@@ -1,0 +1,27 @@
+# Ваги для сортування ранкового брифа.
+# Цей файл визначає ПОРЯДОК у брифі. Колір у клієнті Outlook визначають серверні
+# правила категорій, які створюються руками в UI (див. SETUP.md, розділ 5).
+# Асистент читає цей файл, тому прав на запис у скриньку не потрібно.
+
+weights:
+  senders:
+    "key.client@example.com": 100
+    "lawyer@example-firm.com": 80
+    "accountant@example.com": 70
+
+  domains:
+    "example-bigclient.com": 60
+    "example-bank.com": 50
+
+  subject_patterns:
+    - { pattern: "(?i)(invoice|payment|рахунок|оплат)", weight: 70 }
+    - { pattern: "(?i)(contract|agreement|NDA|договір)", weight: 65 }
+    - { pattern: "(?i)(urgent|asap|терміново)", weight: 40 }
+
+  penalties:
+    - { pattern: "(?i)(newsletter|unsubscribe|розсилка)", weight: -50 }
+    - { pattern: "(?i)(webinar|promo)", weight: -30 }
+
+default_weight: 10 # усе, що не підпало під правила
+brief_top_n: 12 # скільки рядків показувати в брифі
+lookback_hours: 16 # вікно, за яке збираємо листи

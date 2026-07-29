@@ -28,7 +28,7 @@
 `seo-content`, `seo-content-brief`, `seo-dataforseo`, `seo-drift`,
 `seo-ecommerce`, `seo-flow`, `seo-geo`, `seo-google`, `seo-hreflang`,
 `seo-image-gen`, `seo-images`, `seo-local`, `seo-maps`, `seo-page`, `seo-plan`,
-`seo-programmatic`, `seo-schema`, `seo-sitemap`, `seo-sxo`
+`seo-programmatic`, `seo-schema`, `seo-sitemap`, `seo-sxo`, `seo-technical`
 
 Ліцензія MIT, повний текст у теці кожного скіла.
 
@@ -47,7 +47,9 @@
 
 **Скіли:** `karpathy-method`, `cowork`, `icon-library`, `sidebar-nav-shell`,
 `claude-context-picker`, `logo-finder`, `inbox-process`, `maya-design`,
-`obsidian`
+`obsidian`, `presentation-preparation`
+
+**Дослідження:** усе в `research/`
 
 **Команди:** `analis-load`
 
