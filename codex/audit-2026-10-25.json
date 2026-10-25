@@ -1,0 +1,798 @@
+{
+  "skills": [
+    {
+      "name": "alpina-recruiter",
+      "target": "alpina-recruiter",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "claude-context-picker",
+      "target": "codex-context-picker",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "consilium",
+      "target": "consilium",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "cowork",
+      "target": "cowork",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "denon-avr",
+      "target": "denon-avr",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "design-system",
+      "target": "design-system",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "design-variants",
+      "target": "design-variants",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 3
+    },
+    {
+      "name": "docx",
+      "target": "docx",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 61,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "frontend-design",
+      "target": "frontend-design",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 2,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "global-todo",
+      "target": "global-todo",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "homelab-build",
+      "target": "homelab-build",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "homelab-deploy",
+      "target": "homelab-deploy",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 5,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "homelab-service-restore",
+      "target": "homelab-service-restore",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "homelab-services",
+      "target": "homelab-services",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "homelab-status",
+      "target": "homelab-status",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "humanizer",
+      "target": "humanizer",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 4,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "icon-library",
+      "target": "icon-library",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "inbox-process",
+      "target": "inbox-process",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "karpathy-method",
+      "target": "karpathy-method",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "learn",
+      "target": "learn",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "market-research",
+      "target": "market-research",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "maya-design",
+      "target": "maya-design",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "mcp-builder",
+      "target": "mcp-builder",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 10,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "nas-card-offload",
+      "target": "nas-card-offload",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "nas-torrent-download",
+      "target": "nas-torrent-download",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 6
+    },
+    {
+      "name": "obsidian",
+      "target": "obsidian",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "org-audit",
+      "target": "org-audit",
+      "recovered_broken_link": true,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 2
+    },
+    {
+      "name": "org-hiring-plan",
+      "target": "org-hiring-plan",
+      "recovered_broken_link": true,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "org-jd",
+      "target": "org-jd",
+      "recovered_broken_link": true,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "org-merge",
+      "target": "org-merge",
+      "recovered_broken_link": true,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "org-reorg",
+      "target": "org-reorg",
+      "recovered_broken_link": true,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 2
+    },
+    {
+      "name": "pdf",
+      "target": "pdf",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 12,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "pptx",
+      "target": "pptx",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 59,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "project-new",
+      "target": "project-new",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 2
+    },
+    {
+      "name": "session-order",
+      "target": "session-order",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "ship",
+      "target": "ship",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 2
+    },
+    {
+      "name": "sidebar-nav-shell",
+      "target": "sidebar-nav-shell",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "skill-creator",
+      "status": "use-native-codex-skill-creator"
+    },
+    {
+      "name": "talk-prep",
+      "target": "talk-prep",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "torrentX",
+      "target": "torrentx",
+      "recovered_broken_link": false,
+      "shared_existing": false,
+      "status": "adapted-copy",
+      "files": 1
+    },
+    {
+      "name": "web-design-guidelines",
+      "target": "web-design-guidelines",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 1,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    },
+    {
+      "name": "xlsx",
+      "target": "xlsx",
+      "recovered_broken_link": false,
+      "shared_existing": true,
+      "status": "adapted-copy",
+      "files": 54,
+      "duplicate_shared_entry": "disabled-in-codex; source file preserved"
+    }
+  ],
+  "agents": [
+    {
+      "name": "design-ui-designer",
+      "status": "adapted",
+      "source_model": "inherit",
+      "target_model": "inherit"
+    },
+    {
+      "name": "design-ux-researcher",
+      "status": "adapted",
+      "source_model": "inherit",
+      "target_model": "inherit"
+    },
+    {
+      "name": "engineering-code-reviewer",
+      "status": "adapted",
+      "source_model": "inherit",
+      "target_model": "inherit"
+    },
+    {
+      "name": "engineering-devops-automator",
+      "status": "adapted",
+      "source_model": "inherit",
+      "target_model": "inherit"
+    },
+    {
+      "name": "engineering-frontend-developer",
+      "status": "adapted",
+      "source_model": "sonnet",
+      "target_model": "inherit"
+    },
+    {
+      "name": "engineering-security-engineer",
+      "status": "adapted",
+      "source_model": "inherit",
+      "target_model": "inherit"
+    },
+    {
+      "name": "engineering-software-architect",
+      "status": "adapted",
+      "source_model": "inherit",
+      "target_model": "inherit"
+    },
+    {
+      "name": "engineering-technical-writer",
+      "status": "adapted",
+      "source_model": "inherit",
+      "target_model": "inherit"
+    },
+    {
+      "name": "homelab-builder",
+      "status": "adapted",
+      "source_model": "sonnet",
+      "target_model": "inherit"
+    },
+    {
+      "name": "homelab-ceo",
+      "status": "adapted",
+      "source_model": "sonnet",
+      "target_model": "inherit"
+    },
+    {
+      "name": "homelab-cto",
+      "status": "adapted",
+      "source_model": "opus",
+      "target_model": "inherit"
+    },
+    {
+      "name": "homelab-sre",
+      "status": "adapted",
+      "source_model": "sonnet",
+      "target_model": "inherit"
+    },
+    {
+      "name": "marketing-seo-specialist",
+      "status": "adapted",
+      "source_model": "inherit",
+      "target_model": "inherit"
+    },
+    {
+      "name": "product-manager",
+      "status": "adapted",
+      "source_model": "inherit",
+      "target_model": "inherit"
+    },
+    {
+      "name": "product-trend-researcher",
+      "status": "adapted",
+      "source_model": "inherit",
+      "target_model": "inherit"
+    }
+  ],
+  "commands": [
+    {
+      "name": "analis-load",
+      "status": "converted-to-skill"
+    },
+    {
+      "name": "deploy-homelab",
+      "status": "converted-to-skill"
+    },
+    {
+      "name": "links",
+      "status": "converted-to-skill"
+    },
+    {
+      "name": "where",
+      "status": "converted-to-skill"
+    }
+  ],
+  "mcp": [
+    {
+      "name": "1password",
+      "status": "preserved-existing",
+      "same_command": true,
+      "same_args": true
+    },
+    {
+      "name": "hermes",
+      "status": "preserved-existing",
+      "same_command": true,
+      "same_args": true
+    },
+    {
+      "name": "homelab",
+      "status": "preserved-existing",
+      "same_command": true,
+      "same_args": false
+    },
+    {
+      "name": "telegram-intel",
+      "status": "imported"
+    },
+    {
+      "name": "analytics",
+      "status": "imported"
+    },
+    {
+      "name": "telegram-readonly",
+      "status": "imported"
+    },
+    {
+      "name": "mail",
+      "status": "imported"
+    },
+    {
+      "name": "monobank",
+      "status": "imported"
+    },
+    {
+      "name": "context7",
+      "status": "imported-plugin-equivalent; anonymous mode; optional API key not required"
+    }
+  ],
+  "plugins": [
+    {
+      "name": "vercel@claude-plugins-official",
+      "enabled_in_claude": false,
+      "skill_names": [
+        "vercel-agent",
+        "routing-middleware",
+        "build-agents",
+        "deployments-cicd",
+        "vercel-storage",
+        "bootstrap",
+        "cdn-caching",
+        "knowledge-update",
+        "vercel-cli",
+        "runtime-cache",
+        "ai-gateway",
+        "auth",
+        "turbopack",
+        "marketplace",
+        "shadcn",
+        "vercel-services",
+        "access-protected-vercel-deployment",
+        "vercel-connect",
+        "verification",
+        "eve",
+        "workflow",
+        "react-best-practices",
+        "nextjs",
+        "microfrontends",
+        "vercel-sandbox",
+        "next-upgrade",
+        "chat-sdk",
+        "ai-sdk",
+        "next-cache-components",
+        "env-vars",
+        "next-forge",
+        "vercel-firewall",
+        "vercel-functions"
+      ],
+      "skill_count": 33,
+      "claude_api_mentions": 0,
+      "codex_cache_present": true,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "figma@claude-plugins-official",
+      "enabled_in_claude": false,
+      "skill_names": [
+        "figma-use-motion",
+        "figma-shaders",
+        "figma-use-slides",
+        "figma-generate-design",
+        "figma-implement-motion",
+        "figma-generate-diagram",
+        "figma-create-new-file",
+        "figma-swiftui",
+        "figma-generative-plugins",
+        "figma-generate-library",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-code-connect",
+        "figma-design-to-code"
+      ],
+      "skill_count": 14,
+      "claude_api_mentions": 0,
+      "codex_cache_present": true,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "superpowers@claude-plugins-official",
+      "enabled_in_claude": true,
+      "skill_names": [
+        "using-git-worktrees",
+        "test-driven-development",
+        "systematic-debugging",
+        "using-superpowers",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "finishing-a-development-branch",
+        "brainstorming",
+        "writing-plans",
+        "requesting-code-review",
+        "receiving-code-review",
+        "writing-skills",
+        "verification-before-completion",
+        "subagent-driven-development"
+      ],
+      "skill_count": 14,
+      "claude_api_mentions": 0,
+      "codex_cache_present": true,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "ponytail@ponytail",
+      "enabled_in_claude": false,
+      "skill_names": [
+        "ponytail",
+        "ponytail-audit",
+        "ponytail-help",
+        "ponytail-review",
+        "ponytail-gain",
+        "ponytail-debt"
+      ],
+      "skill_count": 6,
+      "claude_api_mentions": 0,
+      "codex_cache_present": false,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "homelab-ops@skills-library",
+      "enabled_in_claude": true,
+      "skill_names": [
+        "nextjs-on-coolify",
+        "lxc-bootstrap",
+        "cf-tunnel-ingress",
+        "restic-add-target"
+      ],
+      "skill_count": 4,
+      "claude_api_mentions": 0,
+      "codex_cache_present": true,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "alpina-team@alpina-plugins",
+      "enabled_in_claude": false,
+      "skill_names": [
+        "coolify-deploy",
+        "fleet-onboarding"
+      ],
+      "skill_count": 2,
+      "claude_api_mentions": 0,
+      "codex_cache_present": true,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "frontend-design@claude-plugins-official",
+      "enabled_in_claude": true,
+      "skill_names": [
+        "frontend-design"
+      ],
+      "skill_count": 1,
+      "claude_api_mentions": 0,
+      "codex_cache_present": true,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "security-guidance@claude-plugins-official",
+      "enabled_in_claude": true,
+      "skill_names": [],
+      "skill_count": 0,
+      "claude_api_mentions": 0,
+      "codex_cache_present": false,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "typescript-lsp@claude-plugins-official",
+      "enabled_in_claude": true,
+      "skill_names": [],
+      "skill_count": 0,
+      "claude_api_mentions": 0,
+      "codex_cache_present": false,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "claude-md-management@claude-plugins-official",
+      "enabled_in_claude": true,
+      "skill_names": [
+        "claude-md-improver"
+      ],
+      "skill_count": 1,
+      "claude_api_mentions": 0,
+      "codex_cache_present": false,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "session-report@claude-plugins-official",
+      "enabled_in_claude": true,
+      "skill_names": [
+        "session-report"
+      ],
+      "skill_count": 1,
+      "claude_api_mentions": 1,
+      "codex_cache_present": false,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "context7@claude-plugins-official",
+      "enabled_in_claude": true,
+      "skill_names": [],
+      "skill_count": 0,
+      "claude_api_mentions": 0,
+      "codex_cache_present": false,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "cloudflare@claude-plugins-official",
+      "enabled_in_claude": false,
+      "skill_names": [
+        "sandbox-migrate-to-next",
+        "cloudflare-one-migrations",
+        "durable-objects",
+        "wrangler",
+        "agents-sdk",
+        "cloudflare",
+        "cloudflare-one",
+        "cloudflare-email-service",
+        "sandbox-stable",
+        "workers-best-practices",
+        "sandbox-next",
+        "web-perf",
+        "turnstile-spin"
+      ],
+      "skill_count": 13,
+      "claude_api_mentions": 0,
+      "codex_cache_present": false,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    },
+    {
+      "name": "claude-blog@agricidaniel-blog",
+      "enabled_in_claude": false,
+      "skill_names": [
+        "blog-google",
+        "blog-locale-audit",
+        "blog-chart",
+        "blog-brand",
+        "blog-cannibalization",
+        "blog-repurpose",
+        "blog-image",
+        "blog-persona",
+        "blog-seo-check",
+        "blog-style",
+        "blog-notebooklm",
+        "blog-translate",
+        "blog-analyze",
+        "blog-calendar",
+        "blog-geo",
+        "blog-write",
+        "blog-decay",
+        "blog-factcheck",
+        "blog-outline",
+        "blog-multilingual",
+        "blog",
+        "blog-strategy",
+        "blog-flow",
+        "blog-audit",
+        "blog-schema",
+        "blog-discourse",
+        "blog-audio",
+        "blog-taxonomy",
+        "blog-brief",
+        "blog-rewrite",
+        "blog-localize",
+        "blog-cluster"
+      ],
+      "skill_count": 32,
+      "claude_api_mentions": 0,
+      "codex_cache_present": false,
+      "status": "preserve-plugin-installation; do not copy Claude manifests"
+    }
+  ],
+  "settings": {
+    "env": "not copied; shared integrations use existing environment/1Password",
+    "attribution": "global rules prohibit AI attribution",
+    "permissions": "preserve Codex sandbox and approvals; no blanket allow import",
+    "model": "preserve current Codex model",
+    "hooks": "8 adapted handlers; native trust review required; notification/status/audio and Claude transcript writer excluded",
+    "statusLine": "Claude-specific; preserve existing Codex behavior",
+    "enabledPlugins": "audit only; preserve Codex plugin state",
+    "extraKnownMarketplaces": "Claude-specific; preserve existing Codex behavior",
+    "effortLevel": "preserve current Codex effort",
+    "modelSettings": "Claude-specific; preserve existing Codex behavior",
+    "skipWorkflowUsageWarning": "Claude-specific; preserve existing Codex behavior",
+    "theme": "preserve Codex app appearance; generated UI remains light per global rules",
+    "agentPushNotifEnabled": "Claude-specific; preserve existing Codex behavior",
+    "skipAutoPermissionPrompt": "Claude-specific; preserve existing Codex behavior",
+    "autoMode": "preserve Codex native approval policy",
+    "cleanupPeriodDays": "Claude-specific; preserve existing Codex behavior"
+  },
+  "limitations": [
+    "New hooks need /hooks trust review; trust hashes are deliberately untouched.",
+    "Stop records bounded, filtered final messages in ~/.codex/journals; this is outcome recall, not full transcript summarization.",
+    "Existing model, effort, app appearance, approval policy and plugin enabled state are preserved.",
+    "Existing MCP definitions win on conflicts, including the different homelab server command.",
+    "Claude LSP/status-line/auto-mode and plugin-private services require native equivalents; no fake parity claimed.",
+    "MCP runtime connectivity and OAuth must be verified in a fresh Codex session."
+  ]
+}
